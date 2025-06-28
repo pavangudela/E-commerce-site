@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Handmade Jewelry Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Handmade Jewelry</h1>
+  <nav class="top-nav">
+  <div class="left-links">
+    <a href="index.html">Home</a>
+  </div>
+  <div class="right-links">
+    <a href="cart.html" class="cart-link">
+      🛒 Cart <span id="cart-count">(0)</span>
+    </a>
+  </div>
+</nav>
+
+ 
+    <div id="category-menu">
+  <button onclick="filterByCategory('All')">All</button>
+  <button onclick="filterByCategory('Necklaces')">Necklaces</button>
+  <button onclick="filterByCategory('Earrings')">Earrings</button>
+  <button onclick="filterByCategory('Bracelets')">Bracelets</button>
+</div>
+
+  </header>
+
+  <section id="Home">
+    <h2>Our Collection</h2>
+    <div class="product-grid" id="product-list"></div>
+  </section>
+
+ 
+ <script src="https://js.stripe.com/v3/"></script>
+<script src="script.js"></script>
+
+ 
+<script>
+  const stripe = Stripe ("pk_test_51RdoC1P3aid1IbCWoG0RI8IjYWoklW83Hy05KpUNcUUOxgOJEWrCHkPQRMRCv1XrJtocFLld463fXeSe7XUJbTIE008BOfkvOl");
+  
+</script>
+
+</body>
+</html>
