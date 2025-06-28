@@ -1,7 +1,3 @@
-{
-  "rewrites": [],
-  "builds": [],
-  "routes": [],
-  "outputDirectory": "frontend",
-  "rootDirectory": "frontend"
+ {
+  "public": "frontend"
 }
